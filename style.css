@@ -57,3 +57,30 @@ footer {
   padding: 1rem;
   margin-top: 2rem;
 }
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f2f7f5;
+  color: #333;
+  line-height: 1.6;
+}
+
+h1, h2 {
+  font-family: 'Merriweather', serif;
+}
+
+ul li::marker {
+  content: "🌟 ";
+  color: #4caf50;
+}
+
+.destaque {
+  background-color: #e0f8e6;
+  border-left-color: #2e7d32;
+}
+
+h2 {
+  border-bottom: 2px solid #4caf50;
+  padding-bottom: 0.3rem;
+  margin-bottom: 1rem;
+}
